@@ -1,0 +1,7 @@
+[devshell]
+packages = [
+  "alejandra",
+  "deadnix",
+  "nii",
+  "statix",
+]
