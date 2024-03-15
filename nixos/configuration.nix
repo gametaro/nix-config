@@ -33,8 +33,13 @@
     nixPath = ["/etc/nix/path"];
     settings = {
       auto-optimise-store = true;
-      experimental-features = ["auto-allocate-uids" "cgroups" "flakes" "nix-command"];
-      trusted-users = [ "root" "gametaro" ];
+      experimental-features = [
+        "auto-allocate-uids"
+        "cgroups"
+        "flakes"
+        "nix-command"
+      ];
+      trusted-users = ["root" "gametaro"];
     };
   };
   environment.etc =
