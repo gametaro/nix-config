@@ -52,16 +52,15 @@
     packages = forEachSystem (pkgs: import ./pkgs pkgs);
     formatter = forEachSystem (pkgs: pkgs.alejandra);
     checks = forEachSystem (pkgs: {
-      pre-commit-hooks = pkgs:
-        inputs.pre-commit-hooks-nix.lib.${pkgs.system}.run {
-          src = ./.;
-          hooks = {
-            alejandra = true;
-            deadnix = true;
-            nil = true;
-            statix = true;
-          };
+      pre-commit-hooks = inputs.pre-commit-hooks-nix.lib.${pkgs.system}.run {
+        src = ./.;
+        hooks = {
+          alejandra = true;
+          deadnix = true;
+          nil = true;
+          statix = true;
         };
+      };
     });
     devShells = forEachSystem (
       pkgs:
