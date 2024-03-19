@@ -55,10 +55,10 @@
       pre-commit-hooks = inputs.pre-commit-hooks-nix.lib.${pkgs.system}.run {
         src = ./.;
         hooks = {
-          alejandra = true;
-          deadnix = true;
-          nil = true;
-          statix = true;
+          alejandra.enable = true;
+          deadnix.enable = true;
+          nil.enable = true;
+          statix.enable = true;
         };
       };
     });
