@@ -72,11 +72,10 @@
       (nerdfonts.override {fonts = ["Monaspace"];})
     ];
 
-    sessionVariables = rec {
+    sessionVariables = {
       EDITOR = "nvim";
-      VISUAL = EDITOR;
-      SUDO_EDITOR = EDITOR;
-      MANPAGER = "nvim +Man!";
+      VISUAL = "nvim";
+      SUDO_EDITOR = "nvim";
     };
 
     stateVersion = "24.05";
