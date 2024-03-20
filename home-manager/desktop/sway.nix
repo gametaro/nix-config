@@ -1,8 +1,4 @@
-{
-  config,
-  lib,
-  ...
-}: let
+{config, ...}: let
   inherit (config.colorscheme) palette;
 in {
   wayland.windowManager.sway = {
