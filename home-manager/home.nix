@@ -61,6 +61,7 @@
       cachix
       curl
       fd
+      fswatch
       jq
       killall
       libnotify
