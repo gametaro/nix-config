@@ -20,7 +20,8 @@
   ];
 
   nix = {
-    package = pkgs.nix;
+    package = pkgs.nixVersions.nix_2_21;
+    gc.automatic = true;
     settings = {
       experimental-features = [
         "auto-allocate-uids"
