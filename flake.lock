@@ -291,11 +291,11 @@
         "pre-commit-hooks-nix": "pre-commit-hooks-nix"
       },
       "locked": {
-        "lastModified": 1715648574,
-        "narHash": "sha256-LcmRg5VmOh16hFdkrATP6JkeFABuuw63N275TyOabgI=",
+        "lastModified": 1715737821,
+        "narHash": "sha256-NTe+oIiyt+8GMa+FpZb26T3jtp8+SbB1wnR71K3YzjA=",
         "owner": "gametaro",
         "repo": "neovim-flake",
-        "rev": "ddc3a68de4af5dffa9dfed1e3b2f952034cc05f3",
+        "rev": "da230152c75f101beb4feb1944ac55f0cf69ae0a",
         "type": "github"
       },
       "original": {
@@ -314,11 +314,11 @@
       },
       "locked": {
         "dir": "contrib",
-        "lastModified": 1715601639,
-        "narHash": "sha256-ppixh//67UGy7/a1SmWixrOs9b95fzXq8nek2s3UYiI=",
+        "lastModified": 1715728713,
+        "narHash": "sha256-DmODP02EhM3+O2hHKB+AVJc+5qykxDh8nz7POO6zGrI=",
         "owner": "neovim",
         "repo": "neovim",
-        "rev": "e3ec974324bd73b63f54503480a4e48d1887f8d9",
+        "rev": "7acf39ddab8ebdb63ebf78ec980149d20783fd4b",
         "type": "github"
       },
       "original": {
@@ -454,11 +454,11 @@
     },
     "nur": {
       "locked": {
-        "lastModified": 1715719537,
-        "narHash": "sha256-owPav2+iP7rOiZUzQHsKJ/bwqt7Bz5x7wTHY9ska0Bw=",
+        "lastModified": 1715816750,
+        "narHash": "sha256-o61Xz1fLUGCsjntDI/kUeIU8RSVJWUxZJvd33/NGAus=",
         "owner": "nix-community",
         "repo": "NUR",
-        "rev": "2c670e2861a7c0e6405b3b19843a49082b773222",
+        "rev": "6c3d26cd2275c8ebc0a21a99192e6e4468513b52",
         "type": "github"
       },
       "original": {
