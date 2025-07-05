@@ -301,11 +301,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1751580393,
-        "narHash": "sha256-oRipTA4/JGeDGI31GNNVGFx0uhuR7h/R9SvkR4K8Axc=",
+        "lastModified": 1751638848,
+        "narHash": "sha256-7HiC6w4ROEbMmKtj5pilnLOJej9HkkfU9wEd5QSTyNo=",
         "owner": "nix-community",
         "repo": "home-manager",
-        "rev": "402333d5ec2f9eed0f2584555936361f39d2f93e",
+        "rev": "7d9e3c35f0d46f82bac791d76260f15f53d83529",
         "type": "github"
       },
       "original": {
@@ -326,11 +326,11 @@
         "pre-commit-hooks": "pre-commit-hooks"
       },
       "locked": {
-        "lastModified": 1751502597,
-        "narHash": "sha256-vkQIXpaeortCWM56znfk/rLRyBHXKCHiaI7jfN25p2g=",
+        "lastModified": 1751644197,
+        "narHash": "sha256-3PXG5uACJn7OT+ShpldFkUVG1e87SVj+WXrMZ49CQCQ=",
         "owner": "gametaro",
         "repo": "neovim-flake",
-        "rev": "6c8261d75c928250ea3f9e4343e0a66abfa4051c",
+        "rev": "29118e76f12cd2590beaaeef5e61c58f911bddcc",
         "type": "github"
       },
       "original": {
@@ -496,11 +496,11 @@
         "treefmt-nix": "treefmt-nix_2"
       },
       "locked": {
-        "lastModified": 1751586381,
-        "narHash": "sha256-nivFMpJqb/93dsYBB7oTzcmGuqXgPdky5oXOiCqdmf0=",
+        "lastModified": 1751672871,
+        "narHash": "sha256-i47qaavDMycBuRlIwc/SqKcl684cuF6WYhuxfiK0lko=",
         "owner": "nix-community",
         "repo": "NUR",
-        "rev": "8dd2aa79c125315c98e7604567857d3cfc55cbe3",
+        "rev": "4063e3d29436aa3de2aa59818dda28620f197a8c",
         "type": "github"
       },
       "original": {
